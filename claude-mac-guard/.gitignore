@@ -1,0 +1,16 @@
+.DS_Store
+.build/
+.swiftpm/
+dist/
+work/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+Config/policy.json
+*.p12
+*.mobileprovision
