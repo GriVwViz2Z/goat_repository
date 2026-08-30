@@ -1,0 +1,9 @@
+# Local secrets. These files must never be committed.
+.env
+.env.*
+!.env.example
+
+# Local dependencies and macOS metadata.
+node_modules/
+.DS_Store
+

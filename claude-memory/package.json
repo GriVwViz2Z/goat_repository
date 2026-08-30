@@ -1,0 +1,16 @@
+{
+  "name": "claude-memory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:mcp",
+    "test:connection": "node --env-file=.env chat.mjs",
+    "test:mcp": "node --test test/mcp-readonly.test.mjs",
+    "mcp:start": "node mcp-server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  }
+}
