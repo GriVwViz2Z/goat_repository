@@ -1,0 +1,11 @@
+{
+  "allowedExitIPv4": [],
+  "allowedExitCIDRs": [],
+  "requireProxyOrTunnel": true,
+  "requireStableExit": true,
+  "exitSampleCount": 3,
+  "expectedClaudeBundleIdentifier": "com.anthropic.claudefordesktop",
+  "expectedClaudeTeamIdentifier": "Q6L2SF6YDW",
+  "claudeAppPath": "/Applications/Claude.app",
+  "apiHost": "api.anthropic.com"
+}

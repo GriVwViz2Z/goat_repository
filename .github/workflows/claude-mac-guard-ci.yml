@@ -1,0 +1,33 @@
+name: Claude Mac Guard CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "claude-mac-guard/**"
+      - ".github/workflows/claude-mac-guard-ci.yml"
+  pull_request:
+    paths:
+      - "claude-mac-guard/**"
+      - ".github/workflows/claude-mac-guard-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-self-test:
+    runs-on: macos-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: claude-mac-guard
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build
+        run: swift build
+
+      - name: Run deterministic self-test
+        run: swift run ClaudeMacGuardSelfTest
