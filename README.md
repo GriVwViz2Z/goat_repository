@@ -6,6 +6,7 @@ GOAT = Greatest Of All Time 🐐
 
 ## 项目
 
+- [Aspect Ad Cutter](aspect-ad-cutter/)：macOS 电影广告画幅检测、本地 GUI 人工核实与无损导出。
 - [Claude Memory](claude-memory/)：为 Claude 提供只读、分层、可检索的长期记忆实验。
 - [Claude Mac Guard](claude-mac-guard/)：面向 Claude for Mac 的本地网络安全启动门禁。
 - [X Following Exporter](x-following-exporter/)：只读导出 X 正在关注账号的浏览器脚本。
