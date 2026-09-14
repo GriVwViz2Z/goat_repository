@@ -1,0 +1,11 @@
+{
+  "mood": 71.60000000000001,
+  "energy": 10,
+  "curiosity": 178.0,
+  "age": 24,
+  "personality": {
+    "curious": 80,
+    "sensitive": 60,
+    "social": 30
+  }
+}
